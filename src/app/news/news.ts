@@ -24,15 +24,14 @@ interface NewsResponse {
   selector: 'app-news',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './news.html',
-  styleUrls: ['./news.css']
+  templateUrl: './news.html'
 })
 export class News implements OnInit {
   private http = inject(HttpClient);
   private route = inject(ActivatedRoute);
   
   private apiKey = '51e52c38cfbc4ca09332d856d69e9f06';
-  private pageSize = 12;
+  private pageSize = 100;
   private country = 'us';
 
   // signals == useState

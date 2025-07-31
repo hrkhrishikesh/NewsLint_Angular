@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navsize ">
     <div class="container-fluid">
         <a class="navbar-brand" routerLink="/">NewsMINT</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -6,31 +6,28 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" routerLink="/" routerLinkActive="active"
-                        [routerLinkActiveOptions]="{exact: true}">Home</a>
+                        [routerLinkActiveOptions]="{exact: true}" aria-current="page">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/business" routerLinkActive="active">Business</a>
+                    <a class="nav-link" routerLink="/business" routerLinkActive="active" aria-current="page">Business</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/entertainment" routerLinkActive="active">Entertainment</a>
+                    <a class="nav-link" routerLink="/entertainment" routerLinkActive="active" aria-current="page">Entertainment</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/general" routerLinkActive="active">General</a>
+                    <a class="nav-link" routerLink="/health" routerLinkActive="active" aria-current="page">Health</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/health" routerLinkActive="active">Health</a>
+                    <a class="nav-link" routerLink="/science" routerLinkActive="active" aria-current="page">Science</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/science" routerLinkActive="active">Science</a>
+                    <a class="nav-link" routerLink="/sports" routerLinkActive="active" aria-current="page">Sports</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/sports" routerLinkActive="active">Sports</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/technology" routerLinkActive="active">Technology</a>
+                    <a class="nav-link" routerLink="/technology" routerLinkActive="active" aria-current="page">Technology</a>
                 </li>
             </ul>
         </div>

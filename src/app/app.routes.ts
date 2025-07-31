@@ -18,11 +18,6 @@ export const routes: Routes = [
         data: { category: 'entertainment' }
     },
     {
-        path: 'general',
-        component: News,
-        data: { category: 'general' }
-    },
-    {
         path: 'health',
         component: News,
         data: { category: 'health' }
